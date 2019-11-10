@@ -1,9 +1,10 @@
 {
-    "description": "Demo reviews app",
+    "description": "Demo Products app",
     "private": true,
     "scripts": {
         "start": "node app.js"
     },
+    "repository": "private",
     "dependencies": {
         "express": "^4.17.1"
     }

@@ -1,5 +1,5 @@
 {
-    "description": "Demo reviews app",
+    "description": "Demo app - this is the graphql gateway",
     "private": true,
     "scripts": {
         "start": "node app.js"

@@ -2,12 +2,12 @@
 
 echo "Starting up the products and the reviews services with docker..."
 
-echo "exec : docker-compose up -d"
-docker-compose up -d
+echo "exec : docker-compose up --build -d"
+docker-compose up --build -d
 
 echo "Here's the ENV properties"
 echo "-------------------------"
-cat ./graphql-api/.env
+cat ./microservices-example/graphql-api-gateway/.env
 echo 
 echo "-------------------------"
 

@@ -1,3 +1,5 @@
+// Dummy Reviews service, simple json object returns that represents products
+
 const reviewJson = [
     {
         id: "2",
@@ -5,6 +7,13 @@ const reviewJson = [
         grade: 5,
         comment: 'I need therapy after this...',
         product: 1
+    }, 
+    {
+        id: "3",
+        title: "This cheeseburger sucks",
+        grade: 1,
+        commment: 'bad',
+        product: 2
     }
 ]
 
